@@ -1,0 +1,275 @@
+/*      全局     */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  font-size: 62.5%;
+}
+
+/*      首页         */
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 23em;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(248, 249, 250, 0.822);
+  border-radius: 8px;
+  z-index: 114514;
+  box-shadow: 1.2rem 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #495057;
+  font-weight: 500;
+  font-size: 2.4em;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #1c7ed6;
+  background-color: #99e9f2;
+  padding: 1.5rem 2.5rem;
+  border-radius: 10px;
+}
+
+.container1 {
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(#15aabf, #f1f3f5);
+  position: relative;
+}
+
+.self {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.self h1 {
+  font-size: 8.2rem;
+  color: #99e9f2;
+  margin-bottom: 5rem;
+}
+
+.self p {
+  font-size: 4.8rem;
+  text-align: center;
+  color: #f8f9fa;
+}
+
+/* 家乡 */
+
+.container2 {
+  background-image: linear-gradient(
+    #f1f3f5,
+    #99e9f2,
+    #f1f3f5,
+    #99e9f2,
+    #f1f3f5
+  );
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  column-gap: 6.4rem;
+  row-gap: 0;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.hometown-img {
+  width: 100%;
+  border-radius: 4rem;
+  transform: scale(0.5);
+}
+
+.hometown-img:hover {
+  transform: scale(0.7);
+  transition: all 1.25s;
+}
+
+.hometown-text {
+  padding: 0 12rem;
+  color: #555;
+}
+
+.hometown-text h3 {
+  font-size: 4.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.hometown-text p {
+  line-height: 2;
+  font-size: 1.6rem;
+}
+
+.container2 span {
+  display: block;
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #cf711f;
+  margin-bottom: 1rem;
+  letter-spacing: 2rem;
+  padding-top: 6.4rem 0;
+  margin-left: 23rem;
+}
+
+h2 {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 4.8rem;
+  margin-bottom: 0;
+  text-align: center;
+  color: #555;
+}
+/* 爱好 */
+
+.container03 {
+  background-image: linear-gradient(#f1f3f5, #12cfe8c5, #99e9f2);
+}
+.container3 h2 {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 4.8rem;
+  margin-bottom: 10rem;
+  text-align: center;
+  color: #555;
+}
+
+.container3 {
+  max-width: 120rem;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.hobby-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 9.6rem;
+}
+
+.hobby-img {
+  width: 100%;
+  margin-bottom: 3.6rem;
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.hobby-title {
+  font-size: 2.5rem;
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 3.6rem;
+  text-align: center;
+}
+li {
+  color: #495057;
+}
+li:last-child {
+  padding-bottom: 2rem;
+}
+.hobby,
+.hobby-list {
+  border-radius: 15px;
+  box-shadow: 0 2.4rem 6.8rem rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.hobby:hover {
+  transform: translate(3rem, 3rem);
+  transition: all 2s;
+}
+.word li {
+  display: inline-block;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  display: block;
+}
+
+.hobby-text {
+  margin: 2rem;
+  text-align: center;
+}
+
+/* 轮播部分 */
+
+.container4 {
+  width: 70rem;
+  height: 45rem;
+  margin: auto;
+  position: relative;
+  padding: 0 20rem;
+  background-color: #d0ebff;
+  border-radius: 20px;
+}
+#highlight {
+  background-color: #99e9f2;
+  height: 100vh;
+  padding-top: 10rem;
+}
+.container4 {
+  margin-top: 10rem;
+}
+
+.container4 img {
+  width: 70rem;
+  height: 45rem;
+  transform: scale(1.1);
+  border-radius: 20px;
+}
+
+.img-c01 {
+  position: absolute;
+}
+
+.img-c02 {
+  position: absolute;
+}
+
+.img-c03 {
+  position: absolute;
+}
+
+.btn {
+  background-color: #74c0fc;
+  border: none;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 450%;
+}
+
+.btn-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  stroke: #1971c2;
+}
+
+.btn-left {
+  left: 15%;
+}
+
+.btn-right {
+  right: 15%;
+}
